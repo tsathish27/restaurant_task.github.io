@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Canteen</title>
+  <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  
+  
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="mits-low-resolution-logo-color-on-transparent-background.png" alt="Logo">
+      </div>
+       
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="book.html">Book Table</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+       
+    
+    <div class=" navv" id="navv">
+        <div onclick = "openMenu()"class="menu-icon"><i class="bi-list"></i></div>
+        <div class="nav-list">
+        
+                 <a href="#Home">Home</a>
+               <a href="#about">About</a>
+                 <a href="#menu">Menu</a>
+                 <a href="book.html">Book Table</a>
+                 <a href="#Contact">Contact</a>
+                 
+           
+        </div>
+        </div>
+    </nav>
+    
+  </header>
+
+  <section id="home">
+    <div class="video-container">
+      <video autoplay loop muted playsinline>
+        <source src="vid1.mp4" type="video/mp4">
+         
+    </div>
+    <h1 class="text-h">Welcome <br>to </h1>
+    <img src="mts-removebg-preview.png" class="mtimg">
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <div class="about-content">
+        <div class="about-description">
+          <p>
+            Mits Canteen is a renowned and beloved food destination that has been serving delicious meals and satisfying cravings for over a decade. Located in the heart of the city, our canteen offers a diverse and mouthwatering menu that caters to various tastes and preferences.
+          </p>
+          <p>
+            At Mits Canteen, we believe in providing our customers with high-quality and flavorful dishes made from fresh, locally sourced ingredients. Our talented chefs craft each meal with passion and attention to detail, ensuring a delightful dining experience for everyone.
+          </p>
+          
+          <p>
+            Join us at Mits Canteen and indulge in a culinary journey that delights the senses and leaves you craving for more. We look forward to serving you and creating unforgettable dining experiences.
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="mits-low-resolution-logo-color-on-transparent-background.png" alt="About Us Image">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="menu">
+    <div class="container">
+      <h2>Menu</h2>
+      <div class="menu-categories">
+        <div class="category">
+          <img src="img2.avif" alt="Category 1">
+          <h3>Veg</h3>
+          <p>Description for veg category...</p>
+          <!-- Add more content as needed -->
+        </div>
+        <div class="category">
+          <img src="img4.webp" alt="Category 2">
+          <h3>Non-Veg</h3>
+          <p>Description for non-veg category...</p>
+          <!-- Add more content as needed -->
+        </div>
+        <div class="category">
+          <img src="sn.jpg" alt="Category 3">
+          <h3>Snacks</h3>
+          <p>Description for breakfast category...</p>
+          <!-- Add more content as needed -->
+        </div>
+        <div class="category">
+          <img src="bf.jpg" alt="Category 4">
+          <h3>breakfast</h3>
+          <p>Description for lunch category...</p>
+          <!-- Add more content as needed -->
+        </div>
+        <div class="category">
+          <img src="lun.webp" alt="Category 5">
+          <h3>Lunch</h3>
+          <p>Description for dinner category...</p>
+          <!-- Add more content as needed -->
+        </div>
+        <div class="category">
+          <img src="img6.jpg" alt="Category 6">
+          <h3>Dinner</h3>
+          <p>Description for snacks category...</p>
+          <!-- Add more content as needed -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="todays-special">
+    <div class="container">
+      <h2>Today's Special</h2>
+      <div class="special-items">
+        <div class="item">
+          <img src="sp1.webp" alt="Special 1">
+          <h3>Chicken Biriyani</h3>
+          <!-- <p>Description for special item 1...</p> -->
+        </div>
+        <div class="item">
+          <img src="mt.webp" alt="Special 2">
+          <h3>Mutton Biriyani</h3>
+          <!-- <p>Description for special item 2...</p> -->
+        </div>
+        <div class="item">
+          <img src="sp3.webp" alt="Special 3">
+          <h3>Special Somosa</h3>
+          <!-- <p>Description for special item 3...</p> -->
+        </div>
+        <div class="item">
+          <img src="sp4.webp" alt="Special 3">
+          <h3>Milk Shakes</h3>
+          <!-- <p>Description for special item 3...</p> -->
+        </div>
+        <div class="item">
+          <img src="sp5.jpg" alt="Special 3">
+          <h3>StarBucks Special</h3>
+          <!-- <p>Description for special item 3...</p> -->
+        </div>
+        <div class="item">
+          <img src="sp6.jpg" alt="Special 3">
+          <h3>Ice Cake</h3>
+          <!-- <p>Description for special item 3...</p> -->
+        </div>
+        <!-- Add more special items as needed -->
+      </div>
+    </div>
+  </section>
+
+  <section id="chefs">
+    <div class="container">
+      <h2 class="section-title">Our Chefs</h2>
+      <div class="chef-wrapper">
+        <div class="chef">
+          <img src="c6.jpg" alt="Chef 1">
+          <h3> Chef Sophia Mitchell</h3>
+        </div>
+        <div class="chef">
+          <img src="c2.jpg" alt="Chef 2">
+          <h3>Chef Isabella Rodriguez
+          </h3>
+        </div>
+        <div class="chef">
+          <img src="c7.jpg" alt="Chef 3">
+          <h3> Chef Emily Chen</h3>
+        </div>
+        <div class="chef">
+          <img src="c8.jpeg" alt="Chef 4">
+          <h3>Chef Olivia Thompson</h3>
+        </div>
+       
+      </div>
+    </div>
+  </section>
+  
+  
+  <footer>
+    <!-  <section id="contact">
+      <div class="containerr">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>123 Street, City, Country</p>
+            </div>
+          </div>
+          <div class="social-media">
+            <a href="#" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <p class="copy-info">&copy; 2023 Your Restaurant. All rights reserved.</p>
+      </div>
+    </section>
+  </footer>
+
+  <script>
+    // Automatic scrolling function
+function autoScroll() {
+  const container = document.querySelector('.special-items');
+  const itemWidth = document.querySelector('.item').offsetWidth;
+  const scrollAmount = itemWidth + 20; // Consider margin-right value
+
+  // Scroll to the next item
+  container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+
+  // Reset scroll position after reaching the end
+  if (container.scrollLeft + container.offsetWidth >= container.scrollWidth) {
+    container.scrollTo({ left: 0, behavior: 'smooth' });
+  }
+}
+
+// Set interval for automatic scrolling
+setInterval(autoScroll, 5000); // Adjust the interval duration as needed
+
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+  <script>
+    function openMenu(){
+        document.getElementById('navv')?.classList.toggle('active')
+    }
+</script>
+</body>
+
+</html>
